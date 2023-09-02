@@ -1,0 +1,17 @@
+body {
+  background: #abedc9;
+}
+.chat-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.chat-container {
+  width: 400px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
