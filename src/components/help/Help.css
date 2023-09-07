@@ -1,5 +1,10 @@
 .help {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     gap: 5px;
+}
+.help > button {
+    flex-grow: 1;
+    background: #539663;
 }

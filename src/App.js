@@ -33,7 +33,10 @@ function App() {
         if (result) {
           res = createMsg(result);
         }
-        setChat((prev) => [{ text: res, sender: "bot" }, ...prev]);
+        setTimeout(
+          () => setChat((prev) => [{ text: res, sender: "bot" }, ...prev]),
+          500
+        );
       }
     }
   }, [messages]);

@@ -6,6 +6,7 @@
     background: #539663;
     border-radius: 5px;
     height: 8%;
+    min-height: 8%;
 }
 
 .navbar-title {
