@@ -1,0 +1,30 @@
+{
+  "short_name": "Formula App",
+  "name": "Formula App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#abedc9",
+  "background_color": "#abedc9",
+  "icons": [
+      {
+          "src": "./icon/icons-16.png",
+          "type": "image/png",
+          "sizes": "16x16"
+      },
+      {
+          "src": "./icon/icons-32.png",
+          "type": "image/png",
+          "sizes": "32x32"
+      },
+      {
+          "src": "./icon/icons-48.png",
+          "type": "image/png",
+          "sizes": "48x48"
+      },
+      {
+          "src": "./icon/icons-96.png",
+          "type": "image/png",
+          "sizes": "96x96"
+      }
+  ]
+}

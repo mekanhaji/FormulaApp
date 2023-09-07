@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FormulaApp/static/css/main.d7019756.css",
+    "main.js": "/FormulaApp/static/js/main.a7785dfb.js",
+    "index.html": "/FormulaApp/index.html",
+    "main.d7019756.css.map": "/FormulaApp/static/css/main.d7019756.css.map",
+    "main.a7785dfb.js.map": "/FormulaApp/static/js/main.a7785dfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7019756.css",
+    "static/js/main.a7785dfb.js"
+  ]
+}
