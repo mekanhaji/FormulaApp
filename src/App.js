@@ -22,13 +22,13 @@ function App() {
     if (req) {
       const msg = req.text;
       setChat((prev) => [req, ...prev]);
-      if (msg == "help") {
+      if (msg === "help") {
         setChat((prev) => [
           { text: <Help pushMsg={pushMessage} />, sender: "bot" },
           ...prev,
         ]);
       } else {
-        let res = `${req.text} Not Found ¯\_(ツ)_/¯`;
+        let res = `${req.text} Not Found ¯_(ツ)_/¯`;
         const result = searchFormulaByName(req.text);
         if (result) {
           res = createMsg(result);
