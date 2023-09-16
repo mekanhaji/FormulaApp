@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/FormulaApp/static/css/main.468bb089.css",
-    "main.js": "/FormulaApp/static/js/main.4a793486.js",
+    "main.css": "/FormulaApp/static/css/main.cebfba2a.css",
+    "main.js": "/FormulaApp/static/js/main.ccae61aa.js",
+    "static/media/Bg.png": "/FormulaApp/static/media/Bg.dfcdd8a5247b1d1f453e.png",
+    "static/media/Send Button.svg": "/FormulaApp/static/media/Send Button.4a9fabcddaafcad20fc44e15fbaa0cb3.svg",
     "index.html": "/FormulaApp/index.html",
-    "main.468bb089.css.map": "/FormulaApp/static/css/main.468bb089.css.map",
-    "main.4a793486.js.map": "/FormulaApp/static/js/main.4a793486.js.map"
+    "main.cebfba2a.css.map": "/FormulaApp/static/css/main.cebfba2a.css.map",
+    "main.ccae61aa.js.map": "/FormulaApp/static/js/main.ccae61aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.468bb089.css",
-    "static/js/main.4a793486.js"
+    "static/css/main.cebfba2a.css",
+    "static/js/main.ccae61aa.js"
   ]
 }
