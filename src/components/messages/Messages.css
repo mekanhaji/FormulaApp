@@ -5,25 +5,37 @@
   display: flex;
   flex-direction: column-reverse;
   scrollbar-width: thin;
-  scrollbar-base-color: #05ed6d;
-  scrollbar-track-color: #05ed6d;
 }
 
 .message {
-  padding: 5px 10px;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  max-width: 80%;
+  width: 100%;
+  align-items: center;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.user-box {
+  justify-content: flex-end;
+}
+
+.message-text {
+  min-width: 60%;
+  max-width: 75%;
+  border-radius: 0rem 1.25rem 1.25rem 1.25rem;
+  background: #898888;
+  min-height: 1.7rem;
+  padding-top: 0.25rem;
+  position: relative;
 }
 
 .user-message {
-  background-color: #05ed6d;
-  color: white;
-  align-self: flex-end;
+  padding-left: 1rem;
+  border-radius: 1.25rem 0rem 1.25rem 1.25rem;
+  background: #000;
 }
 
 .bot-message {
-  background-color: #4eba7f;
-  color: black;
-  align-self: flex-start;
+  padding-left: 1rem;
+  border-radius: 0rem 1.25rem 1.25rem 1.25rem;
+  background: #898888;
 }

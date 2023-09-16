@@ -1,0 +1,22 @@
+<svg width="65" height="55" viewBox="0 0 65 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Send Button">
+<g id="Sent Button" filter="url(#filter0_d_1_16)">
+<rect x="4" width="57" height="47" rx="15" fill="#606060"/>
+</g>
+<g id="SVGRepo_iconCarrier">
+<path id="Vector" d="M49.8014 4.16033C49.6278 3.99159 49.3808 3.95244 49.1714 4.06007L11.3373 23.5407C11.1336 23.6456 11.0025 23.8708 11 24.1196C10.9976 24.3685 11.1244 24.5968 11.3261 24.7065L22.0331 30.5295C22.2295 30.6364 22.4636 30.6122 22.6389 30.467L33.0491 21.8446L24.8767 31.1603C24.7601 31.2933 24.7006 31.4753 24.7134 31.6601L25.5271 43.4035C25.5452 43.6637 25.7026 43.8862 25.9264 43.9677C25.9862 43.9894 26.0476 44 26.1084 44C26.275 44 26.437 43.9208 26.5498 43.7761L32.2327 36.4783L39.2579 40.1981C39.4104 40.2789 39.5869 40.2822 39.7419 40.2076C39.8968 40.1327 40.0148 39.9873 40.0654 39.8087L49.9732 4.83956C50.0424 4.59537 49.9749 4.32907 49.8014 4.16033Z" fill="#353535" stroke="#353535" stroke-width="0.597907"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_1_16" x="0" y="0" width="65" height="55" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_16"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_16" result="shape"/>
+</filter>
+</defs>
+</svg>

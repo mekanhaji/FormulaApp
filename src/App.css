@@ -1,17 +1,20 @@
-body {
-  background: #abedc9;
+:root {
+  --bg-color: #353535;
+  --secondary-color: #606060;
+  --font-color: #fff;
 }
-.chat-app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95vh;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.chat-container {
-  width: 400px;
-  overflow: hidden;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+body {
+  background-color: var(--bg-color);
+  background-image: url("./assets/Bg.png");
+  color: var(--font-color);
+}
+.app {
+  display: grid;
+  place-items: center;
 }

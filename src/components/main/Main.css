@@ -1,0 +1,7 @@
+.main {
+  height: 100dvh;
+  max-width: 27rem;
+  min-width: 26rem;
+  display: flex;
+  flex-direction: column;
+}

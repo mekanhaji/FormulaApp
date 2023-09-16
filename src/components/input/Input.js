@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Input.css";
+import sennBtn from "../../assets/Send Button.svg";
 
 export const Input = ({ pushMessage }) => {
   const [newMessage, setNewMessage] = useState("");
@@ -26,9 +27,9 @@ export const Input = ({ pushMessage }) => {
         value={newMessage}
         onChange={handleInputChange}
         onKeyPress={handleKeyPress}
-        placeholder="Type a message..."
+        placeholder="Type Name of Formula or help"
       />
-      <button onClick={handleSendMessage}>Send</button>
+      <img onClick={handleSendMessage} src={sennBtn} alt="send" />
     </div>
   );
 };
